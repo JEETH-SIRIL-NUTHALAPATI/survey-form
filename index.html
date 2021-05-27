@@ -7,5 +7,74 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Good Vibes Form</h1>
+    <div class="box">
+      <h2>Tell us something positive happened to you today</h2>
+      <form action="do something">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          id="name"
+        /><br /><br />
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter your email" id="email" /><br />
+
+        <label for="scale">On a scale of 1-10, how good was it?</label>
+        <input
+          type="number"
+          placeholder="Enter number between 1 to 10"
+          id="scale"
+        />
+        <br /><br />
+
+        <label for="location">Where did it happen?</label>
+        <select id="location">
+          <option value="">At home</option>
+          <option value="">On my commute</option>
+          <option value="">At work</option>
+          <option value="">On the street</option>
+          <option value="">others</option>
+        </select>
+        <br /><br />
+        <p>At what time of day did it happen?</p>
+        <input type="radio" name="time" id="morning" />
+        <label for="morning">Morning</label><br />
+        <input type="radio" name="time" id="afternoon" />
+        <label for="afternoon">after noon</label><br />
+        <input type="radio" name="time" id="evening" />
+        <label for="evening">Evening</label><br />
+        <br />
+        <p>What emotions did you experience? (Select all that apply)</p>
+
+        <input type="checkbox" name="Emotion" id="excited" />
+        <label for="excited">excited</label><br />
+        <input type="checkbox" name="Emotion" id="excited" />
+        <label for="excited">excited</label><br />
+        <input type="checkbox" name="Emotion" id="excited" />
+        <label for="excited">excited</label><br />
+        <input type="checkbox" name="Emotion" id="excited" />
+        <label for="excited">excited</label><br />
+        <input type="checkbox" name="Emotion" id="excited" />
+        <label for="excited">excited</label><br />
+        <input type="checkbox" name="Emotion" id="excited" />
+        <label for="excited">excited</label><br />
+
+        <label for="experience"
+          >Please describe your positive experience.</label
+        >
+        <br />
+
+        <textarea
+          id="experinece"
+          cols="30"
+          rows="10"
+          placeholder="Enter your experience"
+        ></textarea
+        ><br />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+  </body>
 </html>
